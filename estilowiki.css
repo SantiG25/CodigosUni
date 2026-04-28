@@ -1,0 +1,75 @@
+body{
+    font-family: 'Noto Sans JP', 'Courier New', Courier, monospace;
+    }
+    
+    h1{
+    text-align: center;
+    text-shadow: 1px 1px 1.5px black;
+    }
+    
+    h2{
+        text-align: center;
+        font-size: 1rem;
+    }
+    
+    button{
+    block-size: 1.5rem;
+    border: 6px;
+    border-radius: 15px;
+    box-shadow: 0 15px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+    font-size: 17px;
+    margin-left: 45%;
+    margin-right: 45%;
+    transition-duration: 0.4s;
+    width: 10%;
+    }
+    
+    button:hover{
+    background-color: rgb(106, 38, 215);
+    color: white;
+    }
+    
+    input{
+    border: 1px solid rgba(0, 0, 0, 0.500);
+    border-radius: 1px;
+    }
+
+    .box{
+        display: flex;
+        background-color: rgb(236, 202, 89);
+        border: 2px;
+        border-radius: 8px;
+        height: 200px;
+        justify-content: space-around;
+        margin: auto;
+        padding: 0rem 0.5rem 0rem 0.5rem;
+        width: 500px;
+        text-align: center;
+        }
+
+        .boxtotal{
+        display: flex;
+        background-color: rgb(159, 43, 236);
+        border: 2px;
+        border-radius: 8px;
+        height: 200px;
+        justify-content: space-around;
+        margin: auto;
+        padding: 0rem 0.5rem 0rem 0.5rem;
+        width: 500px;
+        text-align: center;
+            }
+
+        .boxresults{
+        display: flexbox;
+        background-color: rgb(108, 157, 212);
+        border: 3px;
+        border-radius: 8px;
+        height: 100px;
+        justify-content: center;
+        margin: center;
+        padding: 0rem 0.5rem 0rem 0.5rem;
+        width: 300px;
+        text-align: center;
+            }
